@@ -51,7 +51,7 @@ data/
 ## 🚀 How to Run
 
 ```bash
-git clone https://github.com/<your-username>/diabetes-readmission.git
+git clone https://github.com/claraashraf24/diabetes-readmission.git
 cd diabetes-readmission
 pip install -r requirements.txt
 jupyter notebook notebooks/01_eda_and_model.ipynb
@@ -59,15 +59,7 @@ jupyter notebook notebooks/01_eda_and_model.ipynb
 
 ---
 
-## 📊 Results Summary
 
-| Model                          | ROC-AUC | PR-AUC | Notes                          |
-| ------------------------------ | ------- | ------ | ------------------------------ |
-| Logistic Regression            | ~0.66   | ~0.21  | Interpretable baseline         |
-| Random Forest                  | ~0.70   | ~0.25  | Captures non-linear patterns   |
-| Calibrated Logistic (Isotonic) | ~0.67   | ~0.22  | Better probability reliability |
-
----
 
 ## 🔑 Top Predictors
 
@@ -91,13 +83,7 @@ jupyter notebook notebooks/01_eda_and_model.ipynb
 
 ---
 
-## ⚖️ Fairness Evaluation
 
-| Group  | Subgroups Tested        | PR-AUC Range | Observation                                    |
-| ------ | ----------------------- | ------------ | ---------------------------------------------- |
-| Gender | Female / Male           | 0.20 – 0.21  | No notable bias detected                       |
-| Age    | 9 brackets (10–100 yrs) | 0.17 – 0.45  | Slightly higher precision in younger groups    |
-| Race   | 6 groups                | 0.12 – 0.34  | Consistent; smaller subgroups show variability |
 
 **Conclusion:**  
 Model exhibits generally fair performance across demographics; small groups require larger samples for robust validation.
