@@ -157,7 +157,3 @@ diabetes-readmission/
 - Strack et al., _Impact of HbA1c Measurement on Hospital Readmission Rates: Analysis of 70,000 Clinical Database Patient Records_, Diabetes Care, 2014.
 - [Kaggle Dataset Link](https://www.kaggle.com/datasets/brandao/diabetes)
 
-```
-
-Let me know if you'd like help customizing the GitHub repo name, adding badges, or writing a license section!
-```
